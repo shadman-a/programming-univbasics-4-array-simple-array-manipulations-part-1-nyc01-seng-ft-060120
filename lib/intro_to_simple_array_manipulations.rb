@@ -14,3 +14,13 @@ end
 def pop_with_args(array)
   array.pop(2)
 end
+
+def using_shift(array)
+  first = array.shift
+  p first
+end
+
+def shift_with_args(array)
+  first2 = array.shift(2)
+  p first2
+end
